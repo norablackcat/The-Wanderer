@@ -16,6 +16,7 @@ faq/*.json
 .vscode/launch.json
 .forever/
 faq/*
+yarn.lock
 package-lock.json
 config/snowflakes.json
 package-lock.json
