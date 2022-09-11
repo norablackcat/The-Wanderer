@@ -24,15 +24,12 @@
   },
   "guilds": {
     "PrimaryServer": "",
-    "ClimbersCourt": "",
     "TestServer": ""
   },
   "roles": {
     "BotMaster": "",
     "Admin": "",
     "CakeDay": "",
-    "LARPer": "",
-    "SoaringWings": "",
     "Whisper": "",
     "WorldMaker": "",
     "Updates": {

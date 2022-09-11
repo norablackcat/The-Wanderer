@@ -1,6 +1,6 @@
 const Augur = require("augurbot"),
     moment = require("moment"),
-    u = require('../utils/Utils.Generic');
+    u = require('../../src/utils/Generic');
 const Module = new Augur.Module();
 const Discord = require("discord.js");
 

@@ -1,21 +1,24 @@
 {
-  "name": "tavare",
-  "version": "1.1.0",
+  "name": "wanderer",
+  "version": "0.0",
   "description": "Custom Discord bot for the Climber's Court",
-  "main": "foreverBot.js",
+  "main": "./dist/foreverBot.js",
   "scripts": {
-    "test": "node bot.js"
+    "build": "tsc --build",
+    "clean": "tsc --build --clean",
+    "test": "node ./dist/bot.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Chevyboys/Mizuchi.git"
   },
-  "author": "Nick",
+  "author": "The Enchanter Community",
   "license": "MIT",
-  "homepage": "https://github.com/chevyboys/Mizuchi#readme",
+  "homepage": "https://github.com/norablackcat/The-Wanderer",
   "dependencies": {
     "@dice-roller/rpg-dice-roller": "^5.1.0",
     "@discordjs/rest": "^0.1.0-canary.0",
+    "@types/node": "^18.7.16",
     "augurbot": "github:gaiwecoor/augurbot#dev",
     "axios": "^0.21.1",
     "cron": "^1.8.2",
@@ -40,7 +43,9 @@
     "eslint-config-standard": "^16.0.3",
     "eslint-plugin-import": "^2.24.1",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^5.1.0"
+    "eslint-plugin-promise": "^5.1.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.3"
   },
   "eslintConfig": {
     "env": {

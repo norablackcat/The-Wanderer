@@ -1,0 +1,36 @@
+{
+    "compilerOptions": {
+      "allowJs": true,
+      "importHelpers": true,
+      "experimentalDecorators": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "allowSyntheticDefaultImports": true,
+      "strict": true,
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "forceConsistentCasingInFileNames": true,
+      "removeComments": true,
+      "emitDecoratorMetadata": true,
+      "target": "es6",
+      "rootDir": "./src/",
+      "outDir": "dist",
+      "types": [
+        // add node as an option
+        "node"
+      ],
+      "typeRoots": [
+        // add path to @types
+        "node_modules/@types"
+      ],
+    
+    },
+    "include": [
+      "./src/**/*",
+      "LICENSE"
+    ],
+    "exclude": [
+      "node_modules",
+      "dist"
+    ]
+  }

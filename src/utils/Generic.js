@@ -4,7 +4,7 @@ const Discord = require("discord.js"),
   snowflakes = require("../config/snowflakes.json"),
 
   errorLog = new Discord.WebhookClient(config.error);
-const rolesClient = require("./Utils.RolesLogin");
+const rolesClient = require("./RolesLogin");
 /**
  * @typedef {Object} ParsedInteraction
  * @property {String} command - The command issued, represented as a string.

@@ -1,5 +1,5 @@
 const Augur = require("augurbot"),
-    u = require("../utils/Utils.Generic");
+    u = require("../../src/utils/Generic");
 const fs = require('fs');
 const { SlashCommandBuilder } = require('@discordjs/builders');
 const { REST, DiscordAPIError } = require('@discordjs/rest');

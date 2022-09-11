@@ -1,5 +1,5 @@
 const Augur = require("augurbot"),
-    u = require("../utils/Utils.Generic");
+    u = require("../../src/utils/Generic");
 const { BaseMessageComponent, MessageButton, MessageActionRow } = require("discord.js");
 const snowflakes = require('../config/snowflakes.json');
 
@@ -169,7 +169,7 @@ const Module = new Augur.Module()
         }
 
     })
-const Registrar = require("../utils/Utils.CommandRegistrar");
+const Registrar = require("../../src/utils/Utils.CommandRegistrar");
 //Register commands
 let commands = [
     new Registrar.SlashCommandBuilder()

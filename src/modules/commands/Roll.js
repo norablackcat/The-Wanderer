@@ -1,9 +1,9 @@
 const Augur = require("augurbot"),
-    u = require("../utils/Utils.Generic"),
+    u = require("../../src/utils/Generic"),
     snowflakes = require('../config/snowflakes.json');
 const { DiceRoll } = require('@dice-roller/rpg-dice-roller');
 const Discord = require("discord.js");
-const Registrar = require("../utils/Utils.CommandRegistrar");
+const Registrar = require("../../src/utils/Utils.CommandRegistrar");
 let helpURL = "https://dice-roller.github.io/documentation/guide/notation/"
 
 /**

@@ -1,6 +1,6 @@
 const { Client, Intents } = require('discord.js');
   config = require("../config/config.json"),
-  u = require("./Utils.Generic");
+  u = require("./Generic");
 
 let token = config.auxToken;
 

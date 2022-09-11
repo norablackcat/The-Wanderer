@@ -1,6 +1,6 @@
 const Augur = require("augurbot"),
-  u = require("../utils/Utils.Generic"),
-  db = require("../utils/Utils.Database"),
+  u = require("../../src/utils/Generic"),
+  db = require("../../src/utils/Database"),
   snowflakes = require("../config/snowflakes.json");
 const fs = require('fs');
 
@@ -121,7 +121,7 @@ const Module = new Augur.Module()
     } catch (e) { u.errorHandler(e, "New Member Add"); }
   });
 
-const Registrar = require("../utils/Utils.CommandRegistrar");
+const Registrar = require("../../src/utils/Utils.CommandRegistrar");
 //Register commands
 let commands = [
   new Registrar.SlashCommandBuilder()

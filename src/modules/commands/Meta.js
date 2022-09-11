@@ -2,7 +2,7 @@
 */
 const fs = require('fs');
 const Augur = require("augurbot");
-const u = require("../utils/Utils.Generic");
+const u = require("../../src/utils/Generic");
 const axios = require("axios").default;
 const snowflakes = require('../config/snowflakes.json');
 const Discord = require("discord.js")
@@ -273,7 +273,7 @@ Module
     });
 
 
-const Registrar = require("../utils/Utils.CommandRegistrar");
+const Registrar = require("../../src/utils/Utils.CommandRegistrar");
 //Register commands
 let commands = [
     new Registrar.SlashCommandBuilder()

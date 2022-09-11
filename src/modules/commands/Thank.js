@@ -1,8 +1,8 @@
 const Augur = require("augurbot"),
-    u = require("../utils/Utils.Generic"),
+    u = require("../../src/utils/Generic"),
     snowflakes = require('../config/snowflakes.json');
 const Discord = require("discord.js");
-const Registrar = require("../utils/Utils.CommandRegistrar");
+const Registrar = require("../../src/utils/Utils.CommandRegistrar");
 const Module = new Augur.Module
 const fs = require('fs');
 

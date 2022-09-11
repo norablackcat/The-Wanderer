@@ -1,9 +1,9 @@
 const e = require("express");
 
 const Augur = require("augurbot"),
-    u = require("../utils/Utils.Generic"),
+    u = require("../../src/utils/Generic"),
     snowflakes = require('../config/snowflakes.json'),
-    db = require("../utils/Utils.Database"),
+    db = require("../../src/utils/Database"),
     moment = require("moment"),
     Module = new Augur.Module();
 

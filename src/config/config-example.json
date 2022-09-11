@@ -13,12 +13,6 @@
   "error": {
     "url": ""
   },
-  "kesterBombs": {
-    "url": ""
-  },
-  "blogPosts": {
-    "url": ""
-  },
   "events": [
     "channelCreate",
     "channelUpdate",

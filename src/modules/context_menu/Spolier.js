@@ -1,6 +1,6 @@
 const Augur = require("augurbot"),
-    u = require("../utils/Utils.Generic");
-const modRequest = require('../utils/Utils.ContextMenu.Message.ModCard');
+    u = require("../../src/utils/Generic");
+const modRequest = require('../../src/utils/ContextMenu.Message.ModCard');
 const snowflakes = require('../config/snowflakes.json')
 
 //Spoiler msg handling
